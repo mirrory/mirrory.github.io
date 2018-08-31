@@ -41,8 +41,19 @@ ul {
 	display: inline;
 }
 
-@media screen and (max-width: 600px) {
-  #sidebar, #content {
+@media screen and (max-width: 700px) {
+  .row {
+  	display: block;
+  }
+  .row, #sidebar, #content {
     width: 100%;
+  }
+  #sidebar {
+  	height: auto;
+  	padding-bottom: 5%;
+  	position: relative;
+  }
+  #content {
+  	margin-left: 0;
   }
 }
