@@ -4,7 +4,7 @@ body {
 	line-height: 1.5;
 }
 h1 {
-	font-family: 'Georgia', serif;	
+	font-family: 'Georgia', serif;
 }
 .row {
 	display: flex;
@@ -41,7 +41,7 @@ ul {
 	display: inline;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .row {
   	display: block;
   }
